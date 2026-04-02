@@ -6,6 +6,24 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore large video files
+data/
+!data/results/
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Large binary data (optional)
+*.zip
+*.tar
+*.gz
+*.parquet
+*.feather
+
 # Distribution / packaging
 .Python
 build/

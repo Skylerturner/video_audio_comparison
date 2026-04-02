@@ -7,8 +7,14 @@ __pycache__/
 *.so
 
 # Ignore large video files
-data/
+# Ignore everything in data
+data/*
+
+# Allow results folder
 !data/results/
+
+# Allow everything inside results
+!data/results/**
 
 # Video files
 *.mp4
